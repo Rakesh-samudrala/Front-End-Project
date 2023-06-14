@@ -7,14 +7,24 @@
     /* position: relative; */
     /* opacity: calc(); */
 }
+.nav-list{
+    /* position: fixed;
+    /* left: 100vh; */
+    /* justify-content: flex-end;    */
+    /* background-color: black;  */
+    /* width: 100vh; */
+}
 .nav-line{
+    /* display: block; */
     margin-top: 1rem;
+    
 }
 .unordered-list{
     display: flex;
     /* flex-direction: row; */
     /* position: fixed; */
     justify-content: flex-end;
+    /* background-color: transparent; */
     /* height: 4rem; */
     gap: 1rem;
     
@@ -85,4 +95,27 @@
     color: white;
     background-color: #f63854;
     transition: transform 0.3s, color 0.3s, background-color 0.3s;
+}
+
+.card-containers{
+    /* flex-wrap: wrap; */
+    display: flex;
+    /* flex-direction: ; */
+    /* justify-content:space-between;  */
+    /* gap: 12rem; */
+    width: 30vw;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #f63854;
+}
+.card-1{
+    /* display: flex; */
+    border:2px solid #f63854;
+    /* justify-content: space-around; */
+    
+}
+
+.icon{
+    height: 10vh;
+    color: #f63854;
 }
