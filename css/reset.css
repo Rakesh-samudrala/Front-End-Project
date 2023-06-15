@@ -9,4 +9,12 @@ a{
 li{
     list-style:none;
 }
-    
+
+h2::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 100px;
+    margin: 30px auto;
+    background-color: #f63854;
+}
