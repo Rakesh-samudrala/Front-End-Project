@@ -189,10 +189,11 @@
 
 .bg-image-reviews{
     background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)),url(../img/foodiesfeed.com_pizza-ready-for-baking.jpg);
-    height: 60vh;
+    height: 80vh;
     width: auto;
     background-size: cover;
     background-position: center;
+    margin: 1rem;
 }
 .heading-review{
     color: lightgrey;
@@ -240,4 +241,96 @@
     /* align-items: ; */
     /* gap: 1rem; */
     margin-right: 1rem;
+}
+
+/* plans section */
+
+.plans-section{
+    background-color: whitesmoke;
+}
+.plans-container-normal{
+    width: 25vw;
+}
+.plans-heading{
+    text-align: center;
+    color: gray;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plans-container-normal{
+    border: black solid 1px;
+    margin: 1rem;
+    padding: 1rem;
+    /* line-height: 1; */
+    border-radius: 5%;
+}
+.plans-container-heading{
+    text-align: center;
+    /* margin: 1rem; */
+}
+.plans-button{
+    text-align: center;
+    position: relative;
+    top: 2.1rem;
+    /* border: #f63854 solid 1px; */
+    
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* left: 4.5rem; */
+    /* border-top-right-radius: 20px; */
+    
+    /* background-color: #f63854; */
+    /* color: white; */
+    padding-top: 5px;
+}
+.btns{
+    color: white;
+    border: #f63854 solid 1px; 
+    background-color: #f63854;
+    border-radius: 20px;
+    height: 2.5rem;
+    width: 9rem;
+}
+.plans-button:hover{
+    transform: scale(1.1);
+    transition: transform(1.2s);
+}
+.plans-container-para{
+    color: #f63854;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.plans-container-span{
+    color: black;
+    font-size: 1rem;
+}
+.plans-list-item{
+    color: #f63854;
+}
+
+/* contact us section */
+
+.contact-us-section{
+    background-color: black;
+    margin-top: 2rem;
+}
+.contact-heading{
+    text-align: center;
+    color: gray;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+.bg-video{
+    /* height: 4; */
+    position: absolute;
+    width: 35%;
+    /* zoom: 1; */
+    /* background-color: white; */
+    left: 3rem;
 }
