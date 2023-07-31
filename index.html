@@ -227,12 +227,35 @@
     </section>
     <section class="contact-us-section">
       <h2 class="contact-heading">Contact us</h2>
-      <div>
-        <video class="bg-video" autoplay muted loop><source src="Avocado.mp4" type="video/mp4" /> Your Browser is not supported</video>
-      </div>
-      <div class="input-data">
-        
-      </div>
+      <div class="contactus-container">
+        <div class="video-contactus">
+          <video class="bg-video" autoplay muted loop><source src="Avocado.mp4" type="video/mp4" /> Your Browser is not supported</video>
+        </div>
+        <div class="input-data">
+          <form action="#">
+
+            <label for="name">Name<br>
+            <input type="text" id="name" class="entry" placeholder="Your Name" required><br>
+            <label for="email">Email<br>
+            <input type="email" id="email" class="entry" placeholder="Your Email" required><br>
+            <label for="find">How did you find us<br>
+            <select class="entry" id="find" required>
+                <option value="friends">Friends</option>
+                <option value="search"> Search</option>
+                <option value="ads"> ADS </option>
+                <option value="others"> Others </option>
+            </select><br>
+            <label for="message"> Drop us a line</label><br>
+            <textarea id="message" class="entry" placeholder="Your Message" required></textarea><br>
+            <input type="checkbox" required >I have read and agree with all the privacy policy and terms and conditions<br>
+            <div class="input-data-button">
+              <input type="button" value="Send message"><br>
+        </div>
+            </div>
+            
+      
+      
+    </div>
     </section>
 </body>
 </html>

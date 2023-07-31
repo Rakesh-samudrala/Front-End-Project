@@ -7,9 +7,9 @@
     /* position: relative; */
     /* opacity: calc(); */
 }
- .nav-list{
+.nav-list{
     /* display: flex; */
-    position: fixed;
+    /* position: fixed; */
     /* left: 100vh; */
     /* justify-content: flex-end;    */
     /* background-color: black;  */
@@ -318,6 +318,11 @@
 .contact-us-section{
     background-color: black;
     margin-top: 2rem;
+    /* display: flex; */
+}
+.contactus-container{
+    display: flex;
+    justify-content: space-around;
 }
 .contact-heading{
     text-align: center;
@@ -328,9 +333,55 @@
 }
 .bg-video{
     /* height: 4; */
-    position: absolute;
-    width: 35%;
+    position: relative;
+    max-width: 35vw;
     /* zoom: 1; */
     /* background-color: white; */
     left: 3rem;
+    top: 2rem;
+    /* object-fit: contain; */
+    /* overflow-clip-margin: content-box; */
+    /* overflow: clip; */
+}
+.video-contactus{
+    /* width: 35%; */
+}
+.input-data{
+    max-width: 65%;
+    color: gray;
+    line-height: 2.1rem;
+    display: block;
+    /* width: 50%; */
+    position: relative;
+    left: 2rem;
+}
+/* .entry{
+    width: 100%;
+} */
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 80%;
+}
+input[type="button"]{
+    color:white;
+    background-color: #f63854;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 25px;
+    border-color: #f63854;
+    text-align: center;
+
+}
+
+.input-data-button{
+    display: flex;
+    justify-content: center;
+
+}
+input[type="checkbox"]{
+    margin-bottom: 2rem;
+    /* max-width: 60%; */
+    /* width: 50%; */
 }
